@@ -2449,7 +2449,6 @@ class NewsAnalyzer:
             ("bilibili-hot-search", "bilibili 热搜"),
             ("cls-hot", "财联社热门"),
             ("ifeng", "凤凰网"),
-            "tieba",
             "weibo",
             "douyin",
             "zhihu",
