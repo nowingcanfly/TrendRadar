@@ -23,7 +23,7 @@ CONFIG = {
     "USE_PROXY": True,  # 是否启用代理
     "DEFAULT_PROXY": "http://127.0.0.1:10086",
     "ENABLE_CRAWLER": True,  # 是否启用爬取新闻功能，False时直接停止程序
-    "ENABLE_NOTIFICATION": True,  # 是否启用通知功能，False时不发送手机通知
+    "ENABLE_NOTIFICATION": False,  # 是否启用通知功能，False时不发送手机通知
     "MESSAGE_BATCH_SIZE": 4000,  # 消息分批大小（字节）
     "BATCH_SEND_INTERVAL": 1,  # 批次发送间隔（秒）
     # 飞书机器人的 webhook URL
